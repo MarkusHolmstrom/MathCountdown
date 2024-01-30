@@ -11,7 +11,7 @@ void EmptyLinkFunctionForGeneratedCodeStart() {}
 // Cross Module References
 	MATHCOUNTDOWN_API UClass* Z_Construct_UClass_UStart();
 	MATHCOUNTDOWN_API UClass* Z_Construct_UClass_UStart_NoRegister();
-	UMG_API UClass* Z_Construct_UClass_UWidget();
+	UMG_API UClass* Z_Construct_UClass_UCanvasPanel();
 	UPackage* Z_Construct_UPackage__Script_MathCountdown();
 // End Cross Module References
 	void UStart::StaticRegisterNativesUStart()
@@ -32,15 +32,12 @@ void EmptyLinkFunctionForGeneratedCodeStart() {}
 		static const UECodeGen_Private::FClassParams ClassParams;
 	};
 	UObject* (*const Z_Construct_UClass_UStart_Statics::DependentSingletons[])() = {
-		(UObject* (*)())Z_Construct_UClass_UWidget,
+		(UObject* (*)())Z_Construct_UClass_UCanvasPanel,
 		(UObject* (*)())Z_Construct_UPackage__Script_MathCountdown,
 	};
 	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_UStart_Statics::DependentSingletons) < 16);
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UStart_Statics::Class_MetaDataParams[] = {
-#if !UE_BUILD_SHIPPING
-		{ "Comment", "/**\n *\n */" },
-#endif
 		{ "IncludePath", "UI/Start.h" },
 		{ "ModuleRelativePath", "UI/Start.h" },
 	};
@@ -83,9 +80,9 @@ void EmptyLinkFunctionForGeneratedCodeStart() {}
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_Marku_OneDrive_Dokument_Unreal_Projects_MathCountdown_Source_MathCountdown_UI_Start_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_UStart, UStart::StaticClass, TEXT("UStart"), &Z_Registration_Info_UClass_UStart, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UStart), 341434777U) },
+		{ Z_Construct_UClass_UStart, UStart::StaticClass, TEXT("UStart"), &Z_Registration_Info_UClass_UStart, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UStart), 3684202832U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_Marku_OneDrive_Dokument_Unreal_Projects_MathCountdown_Source_MathCountdown_UI_Start_h_3883943971(TEXT("/Script/MathCountdown"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_Marku_OneDrive_Dokument_Unreal_Projects_MathCountdown_Source_MathCountdown_UI_Start_h_4017403551(TEXT("/Script/MathCountdown"),
 		Z_CompiledInDeferFile_FID_Users_Marku_OneDrive_Dokument_Unreal_Projects_MathCountdown_Source_MathCountdown_UI_Start_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_Marku_OneDrive_Dokument_Unreal_Projects_MathCountdown_Source_MathCountdown_UI_Start_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);
