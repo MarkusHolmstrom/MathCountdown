@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\MathCountdown.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\MathCountdown.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\MathCountdownEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\.editorconfig" />
+    <None Include="..\..\.vsconfig" />
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\MathCountdown">
+      <UniqueIdentifier>{CD63A5EB-C91E-3BAD-AA32-6936D77C5C60}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\MathCountdown\MathCountdown.Build.cs">
+      <Filter>Source\MathCountdown</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\MathCountdown\MathCountdown.cpp">
+      <Filter>Source\MathCountdown</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MathCountdown\MathCountdown.h">
+      <Filter>Source\MathCountdown</Filter>
+    </ClInclude>
+    <Filter Include="Source\MathCountdown\UI">
+      <UniqueIdentifier>{2BF4DEC4-2E21-3284-BA40-E62F05D083A0}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\MathCountdown\UI\Start.cpp">
+      <Filter>Source\MathCountdown\UI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MathCountdown\UI\Start.h">
+      <Filter>Source\MathCountdown\UI</Filter>
+    </ClInclude>
+    <Filter Include="Source\MathCountdown\UI\Buttons">
+      <UniqueIdentifier>{633EEDA9-2311-372A-913E-12A2FCB6889B}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\MathCountdown\UI\Buttons\BigButton.cpp">
+      <Filter>Source\MathCountdown\UI\Buttons</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MathCountdown\UI\Buttons\BigButton.h">
+      <Filter>Source\MathCountdown\UI\Buttons</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

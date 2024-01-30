@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "MathCountdown",
+			"Path": "..\\Source\\MathCountdown.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "MathCountdownEditor",
+			"Path": "..\\Source\\MathCountdownEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
